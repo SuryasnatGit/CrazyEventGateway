@@ -1,0 +1,4 @@
+2020-03-22 21:12:38.311 INFO  - [CEGEvent [eventType=1, data=33], CEGEvent [eventType=1, data=44]]
+2020-03-22 21:12:38.355 INFO  - [CEGEvent [eventType=1, data=22], CEGEvent [eventType=1, data=11]]
+2020-03-22 21:12:49.524 INFO  - [CEGEvent [eventType=1, data=33], CEGEvent [eventType=1, data=44]]
+2020-03-22 21:12:49.558 INFO  - [CEGEvent [eventType=1, data=22], CEGEvent [eventType=1, data=11]]

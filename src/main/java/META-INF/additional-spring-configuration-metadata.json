@@ -1,0 +1,49 @@
+{
+	"properties": [
+		{
+			"name": "ceg.rate.limit.enabled",
+			"type": "java.lang.Boolean",
+			"description": "A description for 'ceg.rate.limit.enabled'"
+		},
+		{
+			"name": "ceg.rate.limit.defaultRate",
+			"type": "java.lang.Integer",
+			"description": "A description for 'ceg.rate.limit.defaultRate'"
+		},
+		{
+			"name": "data.dir",
+			"type": "java.lang.String",
+			"description": "A description for 'data.dir'"
+		},
+		{
+			"name": "ceg.blocking.queue.capacity",
+			"type": "java.lang.Integer",
+			"description": "A description for 'ceg.blocking.queue.capacity'"
+		},
+		{
+			"name": "ceg.keep.alive.time",
+			"type": "java.lang.Integer",
+			"description": "A description for 'ceg.keep.alive.time'"
+		},
+		{
+			"name": "ceg.max.pool.size",
+			"type": "java.lang.Integer",
+			"description": "A description for 'ceg.max.pool.size'"
+		},
+		{
+			"name": "ceg.core.pool.size",
+			"type": "java.lang.Integer",
+			"description": "A description for 'ceg.core.pool.size'"
+		},
+		{
+			"name": "ceg.rate.limit",
+			"type": "java.lang.String",
+			"description": "A description for 'ceg.rate.limit'"
+		},
+		{
+			"name": "ceg.rate.limit.time.window",
+			"type": "java.lang.String",
+			"description": "A description for 'ceg.rate.limit.time.window'"
+		}
+	]
+}
