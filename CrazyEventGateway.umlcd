@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_rpKsMGzAEeqruK4Ue1a3FQ">
+  <modelElement href="CrazyEventGateway.uml#_sg3JMGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tO8-QGzAEeqruK4Ue1a3FQ" targetItem="_tO9lUGzAEeqruK4Ue1a3FQ" sourceItem="_tO8XMGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tPslIWzAEeqruK4Ue1a3FQ" targetItem="_tPxdqWzAEeqruK4Ue1a3FQ" sourceItem="_tPslIGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tPxdoGzAEeqruK4Ue1a3FQ" source="_tPxdqWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svuEkGzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tPxdoWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svuroGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tPxdomzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tPxdo2zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svuEkWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPxdpGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPxdpWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tPxdpmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svCIEGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPxdp2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPxdqGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tP4LUWzAEeqruK4Ue1a3FQ" targetItem="_tP9q6WzAEeqruK4Ue1a3FQ" sourceItem="_tP4LUGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tP4LUmzAEeqruK4Ue1a3FQ" sourceAnchor="206.0,0.0" targetAnchor="340.0,103.0" target="_tP9q6WzAEeqruK4Ue1a3FQ" source="_tQG02WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svwg1GzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsJQkGzAEeqruK4Ue1a3FQ" sourceY="-89" targetX="606"/>
+    <stereotypes xmi:id="_tP6AgmzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svxH4GzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tP5ZcGzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsPXMGzAEeqruK4Ue1a3FQ" position="-10.314546211840707,12.03469238890466"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tP6AgGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svwg1WzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsOJEWzAEeqruK4Ue1a3FQ" position="2.984177074211402,-69.87702007383518"/>
+      <visibility xmi:id="_tP6nkWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP6nkGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tP6AgWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="processor" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svFydWzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsPXMWzAEeqruK4Ue1a3FQ" position="584.1338162637478,-30.382857799535955"/>
+      <stereotypes xmi:id="_tP6nlGzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svGZgGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tP6nlWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svGZgWzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tP6nk2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tP6nkmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tP71sGzAEeqruK4Ue1a3FQ" source="_tP9q6WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svuroWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tP71sWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svvSsGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tP71smzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tP71s2zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svuromzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP71tGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP71tWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tP71tmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType1Queue" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svCIEWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP71t2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP71uGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tP8cwGzAEeqruK4Ue1a3FQ" source="_tP9q6WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svvSsWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tP8cwWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svvSs2zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tP8cwmzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tP8cw2zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svvSsmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP8cxGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP8cxWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tP8cxmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType2Queue" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svCvIWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP8cx2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP8cyGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tP9D0GzAEeqruK4Ue1a3FQ" source="_tP9q6WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svvStGzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tP9D0WzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svv5wGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tP9D0mzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tP9D02zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svvStWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP9D1GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9D1WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tP9D1mzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType3Queue" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svDWMWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP9D12zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9D2GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tP9q4GzAEeqruK4Ue1a3FQ" source="_tP9q6WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svv5wWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tP9q4WzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svwg0GzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tP9q4mzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tP9q42zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svv5wmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP9q5GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9q5WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tP9q5mzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType4Queue" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svD9QGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tP9q52zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9q6GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQCjYWzAEeqruK4Ue1a3FQ" targetItem="_tQG02WzAEeqruK4Ue1a3FQ" sourceItem="_tQCjYGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tQDKcGzAEeqruK4Ue1a3FQ" sourceAnchor="375.0,0.0" targetAnchor="262.0,36.0" target="_tRCo8GzAEeqruK4Ue1a3FQ" source="_tQG02WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svxH4WzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsKesGzAEeqruK4Ue1a3FQ" sourceY="-307" targetX="56"/>
+    <stereotypes xmi:id="_tQEYk2zAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svxu8GzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tQEYkGzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsRMYGzAEeqruK4Ue1a3FQ" position="-24.52754032554003,205.02331190452642"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tQEYkWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svxH4mzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsQlUGzAEeqruK4Ue1a3FQ" position="-17.4094050147105,-77.27357289094553"/>
+      <visibility xmi:id="_tQE_oWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQE_oGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tQEYkmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="translator" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svGZg2zAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsRMYWzAEeqruK4Ue1a3FQ" position="13.844764697080791,157.38048459838143"/>
+      <visibility xmi:id="_tQFmsWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQFmsGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tQG00GzAEeqruK4Ue1a3FQ" source="_tQG02WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svwg0WzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tQG00WzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svwg02zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tQG00mzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tQG002zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svwg0mzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG01GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQG01WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tQG01mzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="LOG" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svEkUGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG012zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG02GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQczEWzAEeqruK4Ue1a3FQ" targetItem="_tQhrkGzAEeqruK4Ue1a3FQ" sourceItem="_tQczEGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tQdaIGzAEeqruK4Ue1a3FQ" sourceAnchor="167.0,0.0" targetAnchor="131.0,71.0" dashed="true" superClass="_tRCo8GzAEeqruK4Ue1a3FQ" subClass="_tQhrkGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_styx8GzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsLFwGzAEeqruK4Ue1a3FQ" sourceY="-60" targetX="30" targetY="28"/>
+    <bendpoints xmi:id="_tsLFwWzAEeqruK4Ue1a3FQ" sourceX="-30" sourceY="-60" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tQeBMGzAEeqruK4Ue1a3FQ" sourceAnchor="309.0,40.0" targetAnchor="281.0,74.0" target="_tQ5fAGzAEeqruK4Ue1a3FQ" source="_tQhrkGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svxu8WzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsKesWzAEeqruK4Ue1a3FQ" sourceX="542" targetX="536" targetY="441"/>
+    <bendpoints xmi:id="_tsKesmzAEeqruK4Ue1a3FQ" sourceX="542" sourceY="-441" targetX="536"/>
+    <stereotypes xmi:id="_tQfPUmzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svxu82zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tQeoQGzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsSagGzAEeqruK4Ue1a3FQ" position="-545.0183445507514,203.77933488775082"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tQfPUGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svxu8mzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsRzcGzAEeqruK4Ue1a3FQ" position="42.86431589824542,-33.903946685248926"/>
+      <visibility xmi:id="_tQf2Y2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQf2YmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tQfPUWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="log4jFilePersistor" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svHnoGzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsTBkGzAEeqruK4Ue1a3FQ" position="-85.67445651649723,406.6488397192511"/>
+      <visibility xmi:id="_tQgdcWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQgdcGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQf2YWzAEeqruK4Ue1a3FQ" targetItem="_tRCo8GzAEeqruK4Ue1a3FQ" sourceItem="_tQf2YGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tQlV8GzAEeqruK4Ue1a3FQ" sourceAnchor="152.0,0.0" targetAnchor="131.0,71.0" dashed="true" superClass="_tRCo8GzAEeqruK4Ue1a3FQ" subClass="_tQmkEGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_st0nIGzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsLFwmzAEeqruK4Ue1a3FQ" sourceY="-27" targetX="-350" targetY="28"/>
+    <bendpoints xmi:id="_tsLFw2zAEeqruK4Ue1a3FQ" sourceX="350" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQlV8mzAEeqruK4Ue1a3FQ" targetItem="_tQmkEGzAEeqruK4Ue1a3FQ" sourceItem="_tQlV8WzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQqOcWzAEeqruK4Ue1a3FQ" targetItem="_tQvuCWzAEeqruK4Ue1a3FQ" sourceItem="_tQqOcGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tQqOcmzAEeqruK4Ue1a3FQ" sourceAnchor="0.0,99.0" targetAnchor="141.0,147.0" dashed="true" superClass="_tQ5fAGzAEeqruK4Ue1a3FQ" subClass="_tQvuCWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_suZO4WzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsLs0GzAEeqruK4Ue1a3FQ" sourceX="-211" targetY="154"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tQqOc2zAEeqruK4Ue1a3FQ" source="_tQvuCWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv4coWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tQsqsWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv4co2zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tQsDoGzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tQsDoWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv4comzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQt40WzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQt40GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tQsqsGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="LOG" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svQxkGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQt402zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQt40mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQq1gWzAEeqruK4Ue1a3FQ" targetItem="_tQvuK2zAEeqruK4Ue1a3FQ" sourceItem="_tQq1gGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQrckWzAEeqruK4Ue1a3FQ" targetItem="_tQvuRWzAEeqruK4Ue1a3FQ" sourceItem="_tQrckGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQtRwWzAEeqruK4Ue1a3FQ" targetItem="_tQ5fAGzAEeqruK4Ue1a3FQ" sourceItem="_tQtRwGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQt41WzAEeqruK4Ue1a3FQ" targetItem="_tQ5fA2zAEeqruK4Ue1a3FQ" sourceItem="_tQt41GzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQuf4GzAEeqruK4Ue1a3FQ" targetItem="_tQ5fBmzAEeqruK4Ue1a3FQ" sourceItem="_tQt41mzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQuf4mzAEeqruK4Ue1a3FQ" targetItem="_tQ5fCWzAEeqruK4Ue1a3FQ" sourceItem="_tQuf4WzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQuf5GzAEeqruK4Ue1a3FQ" targetItem="_tQ5fDGzAEeqruK4Ue1a3FQ" sourceItem="_tQuf42zAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQuf5mzAEeqruK4Ue1a3FQ" targetItem="_tQ5fD2zAEeqruK4Ue1a3FQ" sourceItem="_tQuf5WzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tQvuAGzAEeqruK4Ue1a3FQ" source="_tQvuCWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv4cpGzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tQvuAWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv5DsGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tQvuAmzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tQvuA2zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv4cpWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuBGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuBWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tQvuBmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="transactionLoggerMap" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svRYpGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuB2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQvuCGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tQ-XgGzAEeqruK4Ue1a3FQ" sourceAnchor="93.0,0.0" targetAnchor="162.0,0.0" target="_tPxdqWzAEeqruK4Ue1a3FQ" source="_tRAMsGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svxu9GzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsLs0WzAEeqruK4Ue1a3FQ" sourceY="-469" targetX="-1025" targetY="-296"/>
+    <bendpoints xmi:id="_tsLs0mzAEeqruK4Ue1a3FQ" sourceX="1025" sourceY="-469" targetY="-296"/>
+    <stereotypes xmi:id="_tQ--lWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svyWAGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tQ--kmzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsTooWzAEeqruK4Ue1a3FQ" position="-539.0439418403962,441.9662184692943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tQ--k2zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svxu9WzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsTooGzAEeqruK4Ue1a3FQ" position="-18.747958598675496,-74.34576576117365"/>
+      <visibility xmi:id="_tQ_loWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQ_loGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tQ--lGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="transactionList" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svIOtGzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsUPsGzAEeqruK4Ue1a3FQ" position="-1082.3230701752943,172.43258037270948"/>
+      <visibility xmi:id="_tQ_lo2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQ_lomzAEeqruK4Ue1a3FQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tQ--kWzAEeqruK4Ue1a3FQ" targetItem="_tRAMsGzAEeqruK4Ue1a3FQ" sourceItem="_tQ--kGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tRG6YWzAEeqruK4Ue1a3FQ" targetItem="_tRJ9uWzAEeqruK4Ue1a3FQ" sourceItem="_tRG6YGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRG6YmzAEeqruK4Ue1a3FQ" source="_tRJ9uWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svyWAWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tRIvkWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svy9EGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRIIgGzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tRIIgWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svyWAmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRJWoWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRJWoGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRIvkGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="LOG" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svI1wmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRJWo2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRJWomzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRJ9sGzAEeqruK4Ue1a3FQ" source="_tRJ9uWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svy9EWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tRJ9sWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svy9E2zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRJ9smzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tRJ9s2zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svy9EmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRJ9tGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRJ9tWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRJ9tmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="timeWindowMap" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svJc02zAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRJ9t2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRJ9uGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tRO2MWzAEeqruK4Ue1a3FQ" targetItem="_tRQrYGzAEeqruK4Ue1a3FQ" sourceItem="_tRO2MGzAEeqruK4Ue1a3FQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tRPdQGzAEeqruK4Ue1a3FQ" sourceAnchor="71.0,0.0" targetAnchor="76.0,71.0" dashed="true" superClass="_tRQrYGzAEeqruK4Ue1a3FQ" subClass="_tRJ9uWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_st774WzAEeqruK4Ue1a3FQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRTusGzAEeqruK4Ue1a3FQ" source="_tRYnMGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv3OhGzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tRWK8mzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv31kGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRVj4GzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tRWK8GzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv3OhWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRXZEWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRXZEGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRWK8WzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="LOG" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svO8YGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRXZE2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRXZEmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRUVwGzAEeqruK4Ue1a3FQ" source="_tRYnMGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv31kWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tRWyAGzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv4coGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRWK82zAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tRWK9GzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv31kmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRYAIWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRYAIGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRWK9WzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="rateLimiters" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svO8Y2zAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRYAI2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRYAImzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRhxIGzAEeqruK4Ue1a3FQ" sourceAnchor="85.0,0.0" targetAnchor="36.0,137.0" target="_tP9q6WzAEeqruK4Ue1a3FQ" source="_tRwaoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv1ZUGzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tRpF5GzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv1ZUmzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRpF4WzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsVd0GzAEeqruK4Ue1a3FQ" position="-25.83108000009952,99.09057431239307"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tRpF4mzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv1ZUWzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsU2wGzAEeqruK4Ue1a3FQ" position="-18.699770409790517,-75.85789672361517"/>
+      <visibility xmi:id="_tRswQGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRsJNGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRpF42zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="batchProcessor" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svMgIGzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsVd0WzAEeqruK4Ue1a3FQ" position="-58.6300660001441,253.0300692280142"/>
+      <visibility xmi:id="_tRswQmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRswQWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRi_QGzAEeqruK4Ue1a3FQ" sourceAnchor="175.0,116.0" targetAnchor="206.0,232.0" target="_tQG02WzAEeqruK4Ue1a3FQ" source="_tRwaoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv2AYWzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsM68GzAEeqruK4Ue1a3FQ" sourceY="70" targetX="-820" targetY="241"/>
+    <bendpoints xmi:id="_tsM68WzAEeqruK4Ue1a3FQ" sourceX="820" sourceY="70" targetY="241"/>
+    <stereotypes xmi:id="_tRps8mzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv2AY2zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRpF5mzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsXTAGzAEeqruK4Ue1a3FQ" position="-435.57106781186553,-63.650757595082496"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tRps8GzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv2AYmzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsWr8GzAEeqruK4Ue1a3FQ" position="-18.106601717798185,24.169047558312172"/>
+      <visibility xmi:id="_tRswSWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRswSGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRps8WzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType1Consumer" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svNHMmzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsX6EGzAEeqruK4Ue1a3FQ" position="-895.1066017177982,140.01471862576147"/>
+      <visibility xmi:id="_tRtXUWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRtXUGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRnQsGzAEeqruK4Ue1a3FQ" sourceAnchor="205.0,116.0" targetAnchor="176.0,232.0" target="_tQG02WzAEeqruK4Ue1a3FQ" source="_tRwaoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv2ncGzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsM68mzAEeqruK4Ue1a3FQ" sourceY="39" targetX="-760" targetY="210"/>
+    <bendpoints xmi:id="_tsM682zAEeqruK4Ue1a3FQ" sourceX="760" sourceY="39" targetY="210"/>
+    <stereotypes xmi:id="_tRps9mzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv2ncmzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRps82zAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsZvQGzAEeqruK4Ue1a3FQ" position="-405.57106781186553,-32.650757595082496"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tRps9GzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv2ncWzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsYhIGzAEeqruK4Ue1a3FQ" position="-18.106601717798185,24.169047558312172"/>
+      <visibility xmi:id="_tRtXVGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRtXU2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRps9WzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType2Consumer" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svNHN2zAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsZvQWzAEeqruK4Ue1a3FQ" position="-835.1066017177982,140.01471862576147"/>
+      <visibility xmi:id="_tRtXVmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRtXVWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRn3wGzAEeqruK4Ue1a3FQ" sourceAnchor="145.0,0.0" targetAnchor="0.0,116.0" target="_tQG02WzAEeqruK4Ue1a3FQ" source="_tRwaoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv2nc2zAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsNiAGzAEeqruK4Ue1a3FQ" sourceY="-171" targetX="-644"/>
+    <stereotypes xmi:id="_tRqUAmzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv3OgGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRps92zAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsbkcGzAEeqruK4Ue1a3FQ" position="-11.428932188134468,147.6507575950825"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tRqUAGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv2ndGzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsa9YGzAEeqruK4Ue1a3FQ" position="3.106601717798185,-69.16904755831212"/>
+      <visibility xmi:id="_tRtXWWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRtXWGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRqUAWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType3Consumer" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svNuRGzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tscLgGzAEeqruK4Ue1a3FQ" position="-697.8933982822018,156.98528137423858"/>
+      <visibility xmi:id="_tRt-YWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRt-YGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRn3wWzAEeqruK4Ue1a3FQ" sourceAnchor="115.0,0.0" targetAnchor="0.0,86.0" target="_tQG02WzAEeqruK4Ue1a3FQ" source="_tRwaoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv3OgWzAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsNiAWzAEeqruK4Ue1a3FQ" sourceY="-201" targetX="-674"/>
+    <stereotypes xmi:id="_tRqUBmzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv3Og2zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRqUA2zAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsdZoGzAEeqruK4Ue1a3FQ" position="-11.428932188134468,177.6507575950825"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tRqUBGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv3OgmzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tscykGzAEeqruK4Ue1a3FQ" position="3.106601717798185,-69.16904755831212"/>
+      <visibility xmi:id="_tRt-ZGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRt-Y2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRqUBWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="eventType4Consumer" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svOVUmzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tseAsGzAEeqruK4Ue1a3FQ" position="-727.8933982822018,186.98528137423858"/>
+      <visibility xmi:id="_tRt-ZmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRt-ZWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRpF4GzAEeqruK4Ue1a3FQ" source="_tRwaoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv0yQWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tRsJM2zAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv0yQ2zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRsJMGzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tRsJMWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv0yQmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRulcWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRulcGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRsJMmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="LOG" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svL5EmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRulc2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRulcmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tRpF5WzAEeqruK4Ue1a3FQ" source="_tRwaoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv1ZU2zAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tRswR2zAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv2AYGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tRswRGzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tRswRWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv1ZVGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRvMgWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRvMgGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tRswRmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="executor" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svMgI2zAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRvMg2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRvMgmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tR3vYGzAEeqruK4Ue1a3FQ" sourceAnchor="323.0,48.0" targetAnchor="145.0,116.0" target="_tRwaoGzAEeqruK4Ue1a3FQ" source="_tR7ZwGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv0LM2zAEeqruK4Ue1a3FQ"/>
+    <bendpoints xmi:id="_tsOJEGzAEeqruK4Ue1a3FQ" sourceX="355" targetY="261"/>
+    <stereotypes xmi:id="_tR5kkWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv0yQGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tR49gWzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsf14GzAEeqruK4Ue1a3FQ" position="-243.00537535909382,-5.18973943024605"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tR49gmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv0LNGzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsenwGzAEeqruK4Ue1a3FQ" position="35.046851000795414,-14.479207427610731"/>
+      <visibility xmi:id="_tR6LpWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tR6LpGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tR5kkGzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svLSBWzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsf14WzAEeqruK4Ue1a3FQ" position="-158.41764517149227,246.46726379963206"/>
+      <visibility xmi:id="_tR6Lp2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tR6LpmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tR49gGzAEeqruK4Ue1a3FQ" source="_tR7ZwGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sv0LMGzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tR6Lo2zAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sv0LMmzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tR6LoGzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tR6LoWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_sv0LMWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tR6ysWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tR6ysGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tR6LomzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="LOG" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svLSAmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tR6ys2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tR6ysmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tR_rMGzAEeqruK4Ue1a3FQ" sourceAnchor="160.0,0.0" targetAnchor="15.0,116.0" target="_tRwaoGzAEeqruK4Ue1a3FQ" source="_tSDVmWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svzkIWzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tSA5U2zAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svzkI2zAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tSA5UGzAEeqruK4Ue1a3FQ" text="">
+      <visualProperties xmi:id="_tsiSIGzAEeqruK4Ue1a3FQ" position="-9.663542137719105,-18.71540281677187"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tSA5UWzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svzkImzAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tshEAGzAEeqruK4Ue1a3FQ" position="3.38615169631521,-72.23923703923106"/>
+      <visibility xmi:id="_tSBgYWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tSBgYGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tSA5UmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svKq82zAEeqruK4Ue1a3FQ"/>
+      <visualProperties xmi:id="_tsiSIWzAEeqruK4Ue1a3FQ" position="-14.0672632812757,-4.2122940051467594"/>
+      <visibility xmi:id="_tSBgY2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tSBgYmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tSDVkGzAEeqruK4Ue1a3FQ" source="_tSDVmWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svy9FGzAEeqruK4Ue1a3FQ"/>
+    <stereotypes xmi:id="_tSDVkWzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_svzkIGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tSDVkmzAEeqruK4Ue1a3FQ" text=""/>
+    <sourceRole xmi:id="_tSDVk2zAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="">
+      <modelElement href="CrazyEventGateway.uml#_svy9FWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tSDVlGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tSDVlWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tSDVlmzAEeqruK4Ue1a3FQ" aggregationKind="NONE" name="mvc" navigable="true">
+      <modelElement href="CrazyEventGateway.uml#_svKq8GzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tSDVl2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tSDVmGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tO8XMGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tO8-QGzAEeqruK4Ue1a3FQ" text="TODO: Agent class which will be packaged in its own jar so that client&#xD;&#xA;applications can integrate with it to send events to Gateway Service&#xD;&#xA; *" item="_tO9lUGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svk6oGzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tPslIGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tPslIWzAEeqruK4Ue1a3FQ" text="DTO class for containing event&#xD;&#xA;&#xD;&#xA;@author surya&#xD;&#xA; *" item="_tPxdqWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmIxWzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tP4LUGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tP4LUWzAEeqruK4Ue1a3FQ" text="Container class having blocking queues for each sync type&#xD;&#xA;&#xD;&#xA;@author surya&#xD;&#xA; *" item="_tP9q6WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmIxmzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQCjYGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQCjYWzAEeqruK4Ue1a3FQ" text="Consumer class to drain events from the queue. This will run in a&#xD;&#xA;multi-threaded fashion. Depending on the event type(1,2,3,4) each message is&#xD;&#xA;read from the blocking queue. The checkDrainReady() method checks if either&#xD;&#xA;the number of messages in the queue exceeds the drain limit or the time limit&#xD;&#xA;of configured wait-time is reached(whichever is sooner). Based on this the&#xD;&#xA;specific number of objects will be drained from the queue and sent further&#xD;&#xA;for file persistence.&#xD;&#xA;&#xD;&#xA;@author surya&#xD;&#xA; *" item="_tQG02WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmIx2zAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQczEGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQczEWzAEeqruK4Ue1a3FQ" text="For translating consumed messages from queue and forward for file storage&#xA; *" item="_tQhrkGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmIymzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQf2YGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQf2YWzAEeqruK4Ue1a3FQ" text="Processes the transaction object to persist the data into sync(can be file,&#xD;&#xA;kafka or something else..)&#xD;&#xA;&#xD;&#xA;@author surya&#xD;&#xA; *" item="_tRCo8GzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv2GzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQlV8WzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQlV8mzAEeqruK4Ue1a3FQ" text="For translating consumed messages from queue and forward for kafka storage&#xD;&#xA;&#xD;&#xA;@author surya&#xD;&#xA; *" item="_tQmkEGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv0GzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQqOcGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQqOcWzAEeqruK4Ue1a3FQ" text="&#xA;Persistor class to write the transaction contents to file.&#xA; *&#xA;@param &lt;E>" item="_tQvuCWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svnW5GzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQq1gGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQq1gWzAEeqruK4Ue1a3FQ" text="Creates a logger and attaches file appender to the logger&#xA;&#x9; * &#xA;&#x9; * @param fileFolderName File Folder Name&#xA;&#x9; * @param fileNameForApp File Name&#xA;&#x9; * @param validData&#xA;&#x9; * @return {@link Logger}" item="_tQvuK2zAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svnW52zAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQrckGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQrckWzAEeqruK4Ue1a3FQ" text="Calls methods for opening log files for valid and invalid data&#xA;&#x9; * &#xA;&#x9; * @param transaction Transaction DTO" item="_tQvuRWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svnW5mzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQtRwGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQtRwWzAEeqruK4Ue1a3FQ" text="Interface to persist message content to file&#xA;&#xA;@author surya&#xA; *" item="_tQ5fAGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv0WzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQt41GzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQt41WzAEeqruK4Ue1a3FQ" text="This method rolls over the data/error files after the specified time period" item="_tQ5fA2zAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv02zAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQt41mzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQuf4GzAEeqruK4Ue1a3FQ" text="This method cLoses the idle files associated with loggers that are not used for a &#xA;&#x9; * specified time interval" item="_tQ5fBmzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv1GzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQuf4WzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQuf4mzAEeqruK4Ue1a3FQ" text="This method removes the logger from transactionLoggerMap which are more than 24 hours long &#xA;&#x9; * i.e no more in use." item="_tQ5fCWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv1WzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQuf42zAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQuf5GzAEeqruK4Ue1a3FQ" text="This method is used for checking variable initialization&#xA;&#x9; * @throws FilePersistorException" item="_tQ5fDGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv1mzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQuf5WzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQuf5mzAEeqruK4Ue1a3FQ" text="Calls methods for opening log files for valid and invalid data&#xA;&#x9; * @param transaction Transaction DTO" item="_tQ5fD2zAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv0mzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tQ--kGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tQ--kWzAEeqruK4Ue1a3FQ" text="&#xA;Transaction DTO&#xA; *" item="_tRAMsGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv12zAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tRG6YGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tRG6YWzAEeqruK4Ue1a3FQ" text="A sliding window rate limiter implementation.&#xD;&#xA;&#xD;&#xA;TODO: one rate limiter is instantiated per client." item="_tRJ9uWzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv2WzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tRO2MGzAEeqruK4Ue1a3FQ" sourceConnectionVisual="_tRO2MWzAEeqruK4Ue1a3FQ" text="Generic rate limiter interface&#xD;&#xA;&#xD;&#xA;@author surya&#xD;&#xA; *" item="_tRQrYGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_svmv2mzAEeqruK4Ue1a3FQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tNxSgGzAEeqruK4Ue1a3FQ" name="MavenWrapperDownloader">
+    <modelElement href="CrazyEventGateway.uml#_siT6sGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tNxSgWzAEeqruK4Ue1a3FQ" position="30.0,30.0" size="474.0,196.0"/>
+    <visibility xmi:id="_tNxSgmzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tNxSg2zAEeqruK4Ue1a3FQ" defaultValue="&quot;0.5.6&quot;" name="WRAPPER_VERSION" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_su5lMGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tNxShGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tNxShWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tNxShmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tNxSh2zAEeqruK4Ue1a3FQ" defaultValue="&quot;https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/&quot;&#xA;        + WRAPPER_VERSION + &quot;/maven-wrapper-&quot; + WRAPPER_VERSION + &quot;.jar&quot;" name="DEFAULT_DOWNLOAD_URL" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_su6MQWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tNxSiGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tNxSiWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tNxSimzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tNxSi2zAEeqruK4Ue1a3FQ" defaultValue="&quot;.mvn/wrapper/maven-wrapper.properties&quot;" name="MAVEN_WRAPPER_PROPERTIES_PATH" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_su6zUGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tNxSjGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tNxSjWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tNxSjmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tNxSj2zAEeqruK4Ue1a3FQ" defaultValue="&quot;.mvn/wrapper/maven-wrapper.jar&quot;" name="MAVEN_WRAPPER_JAR_PATH" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_su6zUmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tNxSkGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tNxSkWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tNxSkmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tNxSk2zAEeqruK4Ue1a3FQ" defaultValue="&quot;wrapperUrl&quot;" name="PROPERTY_NAME_WRAPPER_URL" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_su6zVGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tNxSlGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tNxSlWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tNxSlmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tNx5kGzAEeqruK4Ue1a3FQ" name="main" staticOperation="true">
+      <modelElement href="CrazyEventGateway.uml#_siaoYGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tNx5kWzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_sib2gGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tNx5kmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tNx5k2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tNx5lGzAEeqruK4Ue1a3FQ" name="args">
+        <modelElement href="CrazyEventGateway.uml#_siaoYWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tNx5lWzAEeqruK4Ue1a3FQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tNx5lmzAEeqruK4Ue1a3FQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tNx5l2zAEeqruK4Ue1a3FQ" name="downloadFileFromURL" staticOperation="true">
+      <modelElement href="CrazyEventGateway.uml#_suf8kWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tNx5mGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tNx5mWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tNx5mmzAEeqruK4Ue1a3FQ" name="urlString">
+        <modelElement href="CrazyEventGateway.uml#_suf8kmzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tNx5m2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tNx5nGzAEeqruK4Ue1a3FQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tNx5nWzAEeqruK4Ue1a3FQ" name="destination">
+        <modelElement href="CrazyEventGateway.uml#_suf8k2zAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tNx5nmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tNx5n2zAEeqruK4Ue1a3FQ" name="File">
+          <modelElement href="CrazyEventGateway.uml#_sueucGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tO0bYGzAEeqruK4Ue1a3FQ" name="Exception">
+    <modelElement href="CrazyEventGateway.uml#_sufVgWzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tO0bYWzAEeqruK4Ue1a3FQ" position="220.0,564.0" size="67.0,65.0"/>
+    <stereotypes xmi:id="_tO0bYmzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_suf8kGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tO0bY2zAEeqruK4Ue1a3FQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tO4FwGzAEeqruK4Ue1a3FQ" name="CrazyEventGatewayApplication">
+    <modelElement href="CrazyEventGateway.uml#_sie50GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tO4FwWzAEeqruK4Ue1a3FQ" position="171.0,682.0" size="192.0,92.0"/>
+    <stereotypes xmi:id="_tO4FwmzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_sifg4GzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tO4Fw2zAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_sihWEGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tO4FxGzAEeqruK4Ue1a3FQ" label="+"/>
+    <operations xmi:id="_tO4s0GzAEeqruK4Ue1a3FQ" name="main" staticOperation="true">
+      <modelElement href="CrazyEventGateway.uml#_sigH8GzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tO4s0WzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_sigH8mzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tO4s0mzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tO4s02zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tO4s1GzAEeqruK4Ue1a3FQ" name="args">
+        <modelElement href="CrazyEventGateway.uml#_sigH8WzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tO4s1WzAEeqruK4Ue1a3FQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tO4s1mzAEeqruK4Ue1a3FQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tO9lUGzAEeqruK4Ue1a3FQ" comments="_tO8XMGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tO8-QGzAEeqruK4Ue1a3FQ" name="CEGAgent">
+    <modelElement href="CrazyEventGateway.uml#_sih9IGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tO9lUWzAEeqruK4Ue1a3FQ" position="356.0,568.0" size="82.0,48.0"/>
+    <visibility xmi:id="_tO9lUmzAEeqruK4Ue1a3FQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_tPDr8GzAEeqruK4Ue1a3FQ" name="CEGConstants">
+    <modelElement href="CrazyEventGateway.uml#_siikMGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tPDr8WzAEeqruK4Ue1a3FQ" position="-303.0,264.0" size="438.0,339.0"/>
+    <visibility xmi:id="_tPDr8mzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tPDr82zAEeqruK4Ue1a3FQ" defaultValue="&quot;/api/v1/events&quot;" name="API_ENDPOINT" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sijLQGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDr9GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDr9WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDr9mzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDr92zAEeqruK4Ue1a3FQ" defaultValue="&quot;.dat&quot;" name="FILE_EXTN" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sijyUWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDr-GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDr-WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDr-mzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDr-2zAEeqruK4Ue1a3FQ" defaultValue="&quot;dd-MM-yy&quot;" name="FILE_NAME_SDF" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sikZYWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDr_GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDr_WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDr_mzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDr_2zAEeqruK4Ue1a3FQ" defaultValue="&quot;dd/MM/yy&quot;" name="APPEND_DATE_SDF" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_silAcGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDsAGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDsAWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDsAmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDsA2zAEeqruK4Ue1a3FQ" defaultValue="&quot;10MB&quot;" name="FILE_SIZE_LIMIT" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_silngGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDsBGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDsBWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDsBmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDsB2zAEeqruK4Ue1a3FQ" defaultValue="&quot;%-12date{YYYY-MM-dd HH:mm:ss.SSS} %-5level - %msg%n&quot;" name="ENCODER_PATTERN" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_silngmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDsCGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDsCWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDsCmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDsC2zAEeqruK4Ue1a3FQ" defaultValue="&quot;logfile-%d{yyyy-MM-dd_HH}.log&quot;" name="ROLLING_FILE_NAME_PATTERN" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sim1oGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDsDGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDsDWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDsDmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDsD2zAEeqruK4Ue1a3FQ" defaultValue="&quot;USER&quot;" name="USER_ROLE" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sincsGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDsEGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDsEWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDsEmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPDsE2zAEeqruK4Ue1a3FQ" defaultValue="&quot;ADMIN&quot;" name="ADMIN_ROLE" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sioDwGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPDsFGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPDsFWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPDsFmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPETAGzAEeqruK4Ue1a3FQ" defaultValue="{ &quot;USER&quot;, &quot;ADMIN&quot; }" name="ALL_ROLES" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sioq0GzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPETAWzAEeqruK4Ue1a3FQ" name="Array">
+        <modelElement href="CrazyEventGateway.uml#_sipR4WzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPETAmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPETA2zAEeqruK4Ue1a3FQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tPETBGzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPETBWzAEeqruK4Ue1a3FQ" defaultValue="&quot;/events/**&quot;" name="ALLOWED_END_POINT" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sip48WzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPETBmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPETB2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPETCGzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPETCWzAEeqruK4Ue1a3FQ" defaultValue="&quot;bcrypt&quot;" name="BCRYPT_ENCODINGID" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sirHEGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPETCmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPETC2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPETDGzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPETDWzAEeqruK4Ue1a3FQ" defaultValue="&quot;pbkdf2&quot;" name="PBKDF2_PWD_ENCODER" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_siruIWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPETDmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPETD2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPETEGzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPETEWzAEeqruK4Ue1a3FQ" defaultValue="&quot;scrypt&quot;" name="SCRYPT_PWD_ENCODER" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_sis8QGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPETEmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPETE2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPETFGzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tPWm4GzAEeqruK4Ue1a3FQ" name="CEGConfig">
+    <modelElement href="CrazyEventGateway.uml#_sitjUGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tPWm4WzAEeqruK4Ue1a3FQ" position="556.0,200.0" size="381.0,403.0"/>
+    <stereotypes xmi:id="_tPWm4mzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_sivYgGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tPWm42zAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_si_QIGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tPWm5GzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tPWm5WzAEeqruK4Ue1a3FQ" name="corePoolSize">
+      <modelElement href="CrazyEventGateway.uml#_su7aYWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWm5mzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su8BcGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWm52zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPWm6GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPWm6WzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPWm6mzAEeqruK4Ue1a3FQ" name="maxPoolSize">
+      <modelElement href="CrazyEventGateway.uml#_su8Bc2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWm62zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su8ogGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWm7GzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPWm7WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPWm7mzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPWm72zAEeqruK4Ue1a3FQ" name="keepAliveTime">
+      <modelElement href="CrazyEventGateway.uml#_su8og2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWm8GzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su9PkGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWm8WzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPWm8mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPWm82zAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPWm9GzAEeqruK4Ue1a3FQ" name="blockingQueueCapacity">
+      <modelElement href="CrazyEventGateway.uml#_su9Pk2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWm9WzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su92oGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWm9mzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPWm92zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPWm-GzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPWm-WzAEeqruK4Ue1a3FQ" name="enabled">
+      <modelElement href="CrazyEventGateway.uml#_su92o2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWm-mzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su-dsGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWm-2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPWm_GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPWm_WzAEeqruK4Ue1a3FQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPWm_mzAEeqruK4Ue1a3FQ" name="rateLimit">
+      <modelElement href="CrazyEventGateway.uml#_su-ds2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWm_2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su-dtGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnAGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPWnAWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPWnAmzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPWnA2zAEeqruK4Ue1a3FQ" name="timeWindow">
+      <modelElement href="CrazyEventGateway.uml#_su_EwWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnBGzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su_EwmzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnBWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPWnBmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPWnB2zAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tPWnCGzAEeqruK4Ue1a3FQ" name="createInterceptor">
+      <modelElement href="CrazyEventGateway.uml#_sixNsGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnCWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sizC4GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnCmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnC2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnDGzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stjhYGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnDWzAEeqruK4Ue1a3FQ" name="RateLimiterInterceptor">
+          <modelElement href="CrazyEventGateway.uml#_skLi8GzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnDmzAEeqruK4Ue1a3FQ" name="createThreadPoolExecutor">
+      <modelElement href="CrazyEventGateway.uml#_sizp8GzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnD2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si0RAGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnEGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnEWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnEmzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_suhxwGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnE2zAEeqruK4Ue1a3FQ" name="ExecutorService">
+          <modelElement href="CrazyEventGateway.uml#_staXcWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnFGzAEeqruK4Ue1a3FQ" name="createBatchProcessor">
+      <modelElement href="CrazyEventGateway.uml#_si04EGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnFWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si2GMGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnFmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnF2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnGGzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stjhYWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnGWzAEeqruK4Ue1a3FQ" name="BatchProcessor">
+          <modelElement href="CrazyEventGateway.uml#_sjQ88GzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnGmzAEeqruK4Ue1a3FQ" name="createEventConsumerForEventType1">
+      <modelElement href="CrazyEventGateway.uml#_si2tQGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnG2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si37YGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnHGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnHWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnHmzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stjhYmzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnH2zAEeqruK4Ue1a3FQ" name="EventConsumer">
+          <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnIGzAEeqruK4Ue1a3FQ" name="createEventConsumerForEventType2">
+      <modelElement href="CrazyEventGateway.uml#_si4icGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnIWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si5JgGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnImzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnI2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnJGzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stjhY2zAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnJWzAEeqruK4Ue1a3FQ" name="EventConsumer">
+          <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnJmzAEeqruK4Ue1a3FQ" name="createEventConsumerForEventType3">
+      <modelElement href="CrazyEventGateway.uml#_si5wkGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnJ2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si6XoGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnKGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnKWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnKmzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stjhZGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnK2zAEeqruK4Ue1a3FQ" name="EventConsumer">
+          <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnLGzAEeqruK4Ue1a3FQ" name="createEventConsumerForEventType4">
+      <modelElement href="CrazyEventGateway.uml#_si6-sGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnLWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si7lwGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnLmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnL2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnMGzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stjhZWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnMWzAEeqruK4Ue1a3FQ" name="EventConsumer">
+          <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnMmzAEeqruK4Ue1a3FQ" name="createLogFilePersistor">
+      <modelElement href="CrazyEventGateway.uml#_si8M0WzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnM2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si8z4GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnNGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnNWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnNmzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stkIcGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnN2zAEeqruK4Ue1a3FQ" name="Persistor">
+          <modelElement href="CrazyEventGateway.uml#_sjke8GzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnOGzAEeqruK4Ue1a3FQ" name="createFileTranslator">
+      <modelElement href="CrazyEventGateway.uml#_si9a8GzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnOWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_si-CAGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnOmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnO2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPWnPGzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_stkIcWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPWnPWzAEeqruK4Ue1a3FQ" name="Translator">
+          <modelElement href="CrazyEventGateway.uml#_sjqlkGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPWnPmzAEeqruK4Ue1a3FQ" name="addInterceptors">
+      <modelElement href="CrazyEventGateway.uml#_suhxwWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPWnP2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_suiY0GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPWnQGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPWnQWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tPWnQmzAEeqruK4Ue1a3FQ" name="registry">
+        <modelElement href="CrazyEventGateway.uml#_suhxwmzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tPWnQ2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tPWnRGzAEeqruK4Ue1a3FQ" name="InterceptorRegistry">
+          <modelElement href="CrazyEventGateway.uml#_stgeEGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tPkCQGzAEeqruK4Ue1a3FQ" name="SecurityConfig">
+    <modelElement href="CrazyEventGateway.uml#_sjGk4GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tPkCQWzAEeqruK4Ue1a3FQ" position="104.0,829.0" size="325.0,194.0"/>
+    <stereotypes xmi:id="_tPkCQmzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_sjHL8GzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tPkCQ2zAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_sjIaEGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tPkCRGzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tPkCRWzAEeqruK4Ue1a3FQ" name="authUser">
+      <modelElement href="CrazyEventGateway.uml#_su_r0WzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPkCRmzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svAS4GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPkCR2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPkCSGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPkCSWzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPkCSmzAEeqruK4Ue1a3FQ" name="authPassword">
+      <modelElement href="CrazyEventGateway.uml#_svAS42zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPkCS2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svA58GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPkCTGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPkCTWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPkCTmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPkCT2zAEeqruK4Ue1a3FQ" name="authAdminUser">
+      <modelElement href="CrazyEventGateway.uml#_svA582zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPkCUGzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svA59GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPkCUWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPkCUmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPkCU2zAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPkCVGzAEeqruK4Ue1a3FQ" name="authAdminPassword">
+      <modelElement href="CrazyEventGateway.uml#_svA592zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPkCVWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svBhAGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPkCVmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tPkCV2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPkCWGzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tPkCWWzAEeqruK4Ue1a3FQ" name="configure">
+      <modelElement href="CrazyEventGateway.uml#_sukOAWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPkCWmzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_sukOA2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPkCW2zAEeqruK4Ue1a3FQ" label="#"/>
+      <cardinality xmi:id="_tPkCXGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tPkCXWzAEeqruK4Ue1a3FQ" name="auth">
+        <modelElement href="CrazyEventGateway.uml#_sukOAmzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tPkCXmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tPkCX2zAEeqruK4Ue1a3FQ" name="AuthenticationManagerBuilder">
+          <modelElement href="CrazyEventGateway.uml#_stlWkGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tPkCYGzAEeqruK4Ue1a3FQ" name="configure">
+      <modelElement href="CrazyEventGateway.uml#_suk1EGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPkCYWzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_suk1EmzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPkCYmzAEeqruK4Ue1a3FQ" label="#"/>
+      <cardinality xmi:id="_tPkCY2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tPkCZGzAEeqruK4Ue1a3FQ" name="http">
+        <modelElement href="CrazyEventGateway.uml#_suk1EWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tPkCZWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tPkCZmzAEeqruK4Ue1a3FQ" name="HttpSecurity">
+          <modelElement href="CrazyEventGateway.uml#_stmksWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tPqI4GzAEeqruK4Ue1a3FQ" name="Exception">
+    <modelElement href="CrazyEventGateway.uml#_sujm8WzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tPqI4WzAEeqruK4Ue1a3FQ" position="38.0,642.0" size="67.0,65.0"/>
+    <stereotypes xmi:id="_tPqI4mzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_sukOAGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tPqI42zAEeqruK4Ue1a3FQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tPxdqWzAEeqruK4Ue1a3FQ" comments="_tPslIGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tPslIWzAEeqruK4Ue1a3FQ" name="CEGEvent" associationsIn="_tQ-XgGzAEeqruK4Ue1a3FQ" associationsOut="_tPxdoGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjLdYWzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tPxdqmzAEeqruK4Ue1a3FQ" position="1400.0,481.0" size="323.0,139.0"/>
+    <visibility xmi:id="_tPxdq2zAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tPxdrGzAEeqruK4Ue1a3FQ" name="eventType">
+      <modelElement href="CrazyEventGateway.uml#_svBhA2zAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPxdrWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPxdrmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPxdr2zAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tPxdsGzAEeqruK4Ue1a3FQ" name="data">
+      <modelElement href="CrazyEventGateway.uml#_svCIEGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tPxdsWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPxdsmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tPxds2zAEeqruK4Ue1a3FQ" name="Object">
+        <modelElement href="CrazyEventGateway.uml#_sulcIGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tPxdtGzAEeqruK4Ue1a3FQ" name="toString">
+      <modelElement href="CrazyEventGateway.uml#_sjNSkGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tPxdtWzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_sjOgsGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tPxdtmzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sjPHwGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tPxdt2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPxduGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPxduWzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_sjN5oGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPyEsGzAEeqruK4Ue1a3FQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tPyEsWzAEeqruK4Ue1a3FQ" name="CEGEvent">
+      <modelElement href="CrazyEventGateway.uml#_sumqQGzAEeqruK4Ue1a3FQ"/>
+      <keywords xmi:id="_tPyEsmzAEeqruK4Ue1a3FQ" keyword="create"/>
+      <visibility xmi:id="_tPyEs2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tPyEtGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tPyEtWzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_sumqRWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tPyEtmzAEeqruK4Ue1a3FQ" name="CEGEvent">
+          <modelElement href="CrazyEventGateway.uml#_sjLdYWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tPyEt2zAEeqruK4Ue1a3FQ" name="eventType">
+        <modelElement href="CrazyEventGateway.uml#_sumqQWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tPyEuGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tPyEuWzAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tPyEumzAEeqruK4Ue1a3FQ" name="d">
+        <modelElement href="CrazyEventGateway.uml#_sumqQmzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tPyEu2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tPyEvGzAEeqruK4Ue1a3FQ" name="Object">
+          <modelElement href="CrazyEventGateway.uml#_sulcIGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tP9q6WzAEeqruK4Ue1a3FQ" comments="_tP4LUGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tP4LUWzAEeqruK4Ue1a3FQ" name="BatchProcessor" associationsIn="_tP4LUmzAEeqruK4Ue1a3FQ _tRhxIGzAEeqruK4Ue1a3FQ" associationsOut="_tP71sGzAEeqruK4Ue1a3FQ _tP8cwGzAEeqruK4Ue1a3FQ _tP9D0GzAEeqruK4Ue1a3FQ _tP9q4GzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjQ88GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tP9q6mzAEeqruK4Ue1a3FQ" position="1071.0,-11.0" size="340.0,158.0"/>
+    <visibility xmi:id="_tP9q62zAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tP9q7GzAEeqruK4Ue1a3FQ" name="eventType1Queue">
+      <modelElement href="CrazyEventGateway.uml#_svCIEWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tP9q7WzAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_svCvIGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tP9q7mzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9q72zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tP9q8GzAEeqruK4Ue1a3FQ" name="LinkedBlockingQueue">
+        <modelElement href="CrazyEventGateway.uml#_sta-gWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tP9q8WzAEeqruK4Ue1a3FQ" name="eventType2Queue">
+      <modelElement href="CrazyEventGateway.uml#_svCvIWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tP9q8mzAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_svDWMGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tP9q82zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9q9GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tP9q9WzAEeqruK4Ue1a3FQ" name="LinkedBlockingQueue">
+        <modelElement href="CrazyEventGateway.uml#_sta-gWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tP9q9mzAEeqruK4Ue1a3FQ" name="eventType3Queue">
+      <modelElement href="CrazyEventGateway.uml#_svDWMWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tP9q92zAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_svDWMmzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tP9q-GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9q-WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tP9q-mzAEeqruK4Ue1a3FQ" name="LinkedBlockingQueue">
+        <modelElement href="CrazyEventGateway.uml#_sta-gWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tP9q-2zAEeqruK4Ue1a3FQ" name="eventType4Queue">
+      <modelElement href="CrazyEventGateway.uml#_svD9QGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tP9q_GzAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_svD9QWzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tP9q_WzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9q_mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tP9q_2zAEeqruK4Ue1a3FQ" name="LinkedBlockingQueue">
+        <modelElement href="CrazyEventGateway.uml#_sta-gWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tP9rAGzAEeqruK4Ue1a3FQ" name="BatchProcessor">
+      <modelElement href="CrazyEventGateway.uml#_sjSLEGzAEeqruK4Ue1a3FQ"/>
+      <keywords xmi:id="_tP9rAWzAEeqruK4Ue1a3FQ" keyword="create"/>
+      <visibility xmi:id="_tP9rAmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tP9rA2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tP9rBGzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_sjSyI2zAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tP9rBWzAEeqruK4Ue1a3FQ" name="BatchProcessor">
+          <modelElement href="CrazyEventGateway.uml#_sjQ88GzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tP9rBmzAEeqruK4Ue1a3FQ" name="capacity">
+        <modelElement href="CrazyEventGateway.uml#_sjSyIGzAEeqruK4Ue1a3FQ"/>
+        <keywords xmi:id="_tP9rB2zAEeqruK4Ue1a3FQ" keyword="final"/>
+        <cardinality xmi:id="_tP9rCGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tP9rCWzAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tQG02WzAEeqruK4Ue1a3FQ" comments="_tQCjYGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQCjYWzAEeqruK4Ue1a3FQ" name="EventConsumer" associationsIn="_tRi_QGzAEeqruK4Ue1a3FQ _tRnQsGzAEeqruK4Ue1a3FQ _tRn3wGzAEeqruK4Ue1a3FQ _tRn3wWzAEeqruK4Ue1a3FQ" associationsOut="_tP4LUmzAEeqruK4Ue1a3FQ _tQDKcGzAEeqruK4Ue1a3FQ _tQG00GzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tQG02mzAEeqruK4Ue1a3FQ" position="1811.0,181.0" size="411.0,253.0"/>
+    <visibility xmi:id="_tQG022zAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tQG03GzAEeqruK4Ue1a3FQ" defaultValue="LoggerFactory.getLogger(EventConsumer.class)" name="LOG" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svEkUGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG03WzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG03mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQG032zAEeqruK4Ue1a3FQ" name="Logger">
+        <modelElement href="CrazyEventGateway.uml#_stsrUWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQG04GzAEeqruK4Ue1a3FQ" name="maxElementsToDrain">
+      <modelElement href="CrazyEventGateway.uml#_svEkUmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQG04WzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svEkU2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQG04mzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svFLYGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQG042zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG05GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQG05WzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQG05mzAEeqruK4Ue1a3FQ" name="waitTime">
+      <modelElement href="CrazyEventGateway.uml#_svFLY2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQG052zAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svFLZGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQG06GzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svFycGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQG06WzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG06mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQG062zAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQG07GzAEeqruK4Ue1a3FQ" name="eventType">
+      <modelElement href="CrazyEventGateway.uml#_svFyc2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQG07WzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svFydGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQG07mzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG072zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQG08GzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQG08WzAEeqruK4Ue1a3FQ" name="processor">
+      <modelElement href="CrazyEventGateway.uml#_svFydWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG08mzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG082zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQG09GzAEeqruK4Ue1a3FQ" name="BatchProcessor">
+        <modelElement href="CrazyEventGateway.uml#_sjQ88GzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQG09WzAEeqruK4Ue1a3FQ" name="translator">
+      <modelElement href="CrazyEventGateway.uml#_svGZg2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQG09mzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svGZhGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQG092zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svHAkGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQG0-GzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG0-WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQG0-mzAEeqruK4Ue1a3FQ" name="Translator">
+        <modelElement href="CrazyEventGateway.uml#_sjqlkGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tQG0-2zAEeqruK4Ue1a3FQ" name="EventConsumer">
+      <modelElement href="CrazyEventGateway.uml#_sjXqoGzAEeqruK4Ue1a3FQ"/>
+      <keywords xmi:id="_tQG0_GzAEeqruK4Ue1a3FQ" keyword="create"/>
+      <visibility xmi:id="_tQG0_WzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQG0_mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tQG0_2zAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_sjYRs2zAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tQG1AGzAEeqruK4Ue1a3FQ" name="EventConsumer">
+          <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tQG1AWzAEeqruK4Ue1a3FQ" name="et">
+        <modelElement href="CrazyEventGateway.uml#_sjYRsGzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQG1AmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQG1A2zAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tQG1BGzAEeqruK4Ue1a3FQ" name="run">
+      <modelElement href="CrazyEventGateway.uml#_sjY4wGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQG1BWzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_sjZf0GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQG1BmzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sjZf0WzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQG1B2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQG1CGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQG1CWzAEeqruK4Ue1a3FQ" name="setEventType">
+      <modelElement href="CrazyEventGateway.uml#_sjaG4GzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG1CmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQG1C2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tQG1DGzAEeqruK4Ue1a3FQ" name="eventType">
+        <modelElement href="CrazyEventGateway.uml#_sjaG4WzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQG1DWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQG1DmzAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tQG1D2zAEeqruK4Ue1a3FQ" name="drainEvents">
+      <modelElement href="CrazyEventGateway.uml#_suofcGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG1EGzAEeqruK4Ue1a3FQ" label="#"/>
+      <cardinality xmi:id="_tQG1EWzAEeqruK4Ue1a3FQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_tQG1EmzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_suofcmzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tQG1E2zAEeqruK4Ue1a3FQ" name="CEGEvent">
+          <modelElement href="CrazyEventGateway.uml#_sjLdYWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tQG1FGzAEeqruK4Ue1a3FQ" name="eventQueue">
+        <modelElement href="CrazyEventGateway.uml#_suofcWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQG1FWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQG1FmzAEeqruK4Ue1a3FQ" name="LinkedBlockingQueue">
+          <modelElement href="CrazyEventGateway.uml#_sta-gWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tQG1F2zAEeqruK4Ue1a3FQ" name="checkDrainReady">
+      <modelElement href="CrazyEventGateway.uml#_suptkGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG1GGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG1GWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tQG1GmzAEeqruK4Ue1a3FQ" name="eventQueue">
+        <modelElement href="CrazyEventGateway.uml#_suptkWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQG1G2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQG1HGzAEeqruK4Ue1a3FQ" name="LinkedBlockingQueue">
+          <modelElement href="CrazyEventGateway.uml#_sta-gWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tQG1HWzAEeqruK4Ue1a3FQ" name="persistData">
+      <modelElement href="CrazyEventGateway.uml#_suqUoGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQG1HmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQG1H2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tQG1IGzAEeqruK4Ue1a3FQ" name="eventsColl">
+        <modelElement href="CrazyEventGateway.uml#_suqUoWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQG1IWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQG1ImzAEeqruK4Ue1a3FQ" name="List">
+          <modelElement href="CrazyEventGateway.uml#_stsEQWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tQG1I2zAEeqruK4Ue1a3FQ" name="eventType">
+        <modelElement href="CrazyEventGateway.uml#_suqUomzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQG1JGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQG1JWzAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tQhrkGzAEeqruK4Ue1a3FQ" comments="_tQczEGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQczEWzAEeqruK4Ue1a3FQ" name="FileTranslator" associationsOut="_tQeBMGzAEeqruK4Ue1a3FQ" generalizations="_tQdaIGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sje_YGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tQhrkWzAEeqruK4Ue1a3FQ" position="1862.0,-3.0" size="309.0,101.0"/>
+    <visibility xmi:id="_tQhrkmzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tQhrk2zAEeqruK4Ue1a3FQ" defaultValue="-5002490659893746757L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svHAkmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQhrlGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQhrlWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQhrlmzAEeqruK4Ue1a3FQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQhrl2zAEeqruK4Ue1a3FQ" name="log4jFilePersistor">
+      <modelElement href="CrazyEventGateway.uml#_svHnoGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQhrmGzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svHnoWzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQhrmWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svHnomzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQhrmmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQhrm2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQhrnGzAEeqruK4Ue1a3FQ" name="Persistor">
+        <modelElement href="CrazyEventGateway.uml#_sjke8GzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tQhrnWzAEeqruK4Ue1a3FQ" name="persistData">
+      <modelElement href="CrazyEventGateway.uml#_stzZAGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQhrnmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQhrn2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tQhroGzAEeqruK4Ue1a3FQ" name="transaction">
+        <modelElement href="CrazyEventGateway.uml#_stzZAWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQhroWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQhromzAEeqruK4Ue1a3FQ" name="Transaction">
+          <modelElement href="CrazyEventGateway.uml#_sjoJUGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tQmkEGzAEeqruK4Ue1a3FQ" comments="_tQlV8WzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQlV8mzAEeqruK4Ue1a3FQ" name="KafkaTranslator" generalizations="_tQlV8GzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjiCsmzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tQmkEWzAEeqruK4Ue1a3FQ" position="1497.0,-36.0" size="304.0,101.0"/>
+    <visibility xmi:id="_tQmkEmzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tQmkE2zAEeqruK4Ue1a3FQ" defaultValue="4465964535414065072L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svIOsGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQmkFGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQmkFWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQmkFmzAEeqruK4Ue1a3FQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tQmkF2zAEeqruK4Ue1a3FQ" name="persistData">
+      <modelElement href="CrazyEventGateway.uml#_st1OMGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQmkGGzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_st11QGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQmkGWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_st2cUGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQmkGmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQmkG2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tQmkHGzAEeqruK4Ue1a3FQ" name="transaction">
+        <modelElement href="CrazyEventGateway.uml#_st1OMWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQmkHWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQmkHmzAEeqruK4Ue1a3FQ" name="Transaction">
+          <modelElement href="CrazyEventGateway.uml#_sjoJUGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tQvuCWzAEeqruK4Ue1a3FQ" comments="_tQqOcGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQqOcWzAEeqruK4Ue1a3FQ" name="Log4JFilePersistor" associationsOut="_tQqOc2zAEeqruK4Ue1a3FQ _tQvuAGzAEeqruK4Ue1a3FQ" generalizations="_tQqOcmzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_skUF0GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tQvuCmzAEeqruK4Ue1a3FQ" position="2248.0,-276.0" size="450.0,308.0"/>
+    <stereotypes xmi:id="_tQvuC2zAEeqruK4Ue1a3FQ" name="Generics">
+      <modelElement href="CrazyEventGateway.uml#_skVT8WzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tQvuDGzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tQvuDWzAEeqruK4Ue1a3FQ" defaultValue="-8670005827462032764L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svQKgWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuDmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQvuD2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQvuEGzAEeqruK4Ue1a3FQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQvuEWzAEeqruK4Ue1a3FQ" defaultValue="LoggerFactory.getLogger(Log4JFilePersistor.class)" name="LOG" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svQxkGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuEmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQvuE2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQvuFGzAEeqruK4Ue1a3FQ" name="Logger">
+        <modelElement href="CrazyEventGateway.uml#_stsrUWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQvuFWzAEeqruK4Ue1a3FQ" name="dataSir">
+      <modelElement href="CrazyEventGateway.uml#_svQxkmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQvuFmzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svQxk2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQvuF2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svRYoGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQvuGGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQvuGWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQvuGmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQvuG2zAEeqruK4Ue1a3FQ" name="fileFolder">
+      <modelElement href="CrazyEventGateway.uml#_svRYo2zAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuHGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuHWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQvuHmzAEeqruK4Ue1a3FQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tQvuH2zAEeqruK4Ue1a3FQ" defaultValue="new AtomicReference&lt;>()" name="transactionLoggerMap">
+      <modelElement href="CrazyEventGateway.uml#_svRYpGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQvuIGzAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_svR_sGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQvuIWzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svR_smzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQvuImzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tQvuI2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tQvuJGzAEeqruK4Ue1a3FQ" name="AtomicReference">
+        <modelElement href="CrazyEventGateway.uml#_suVkgWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tQvuJWzAEeqruK4Ue1a3FQ" name="Log4JFilePersistor">
+      <modelElement href="CrazyEventGateway.uml#_skWiEGzAEeqruK4Ue1a3FQ"/>
+      <keywords xmi:id="_tQvuJmzAEeqruK4Ue1a3FQ" keyword="create"/>
+      <visibility xmi:id="_tQvuJ2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuKGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tQvuKWzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_skXJIWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tQvuKmzAEeqruK4Ue1a3FQ" name="Log4JFilePersistor">
+          <modelElement href="CrazyEventGateway.uml#_skUF0GzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tQvuK2zAEeqruK4Ue1a3FQ" comments="_tQq1gGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQq1gWzAEeqruK4Ue1a3FQ" name="createRollingLogger">
+      <modelElement href="CrazyEventGateway.uml#_skXJImzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuLGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuLWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tQvuLmzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_suadAWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tQvuL2zAEeqruK4Ue1a3FQ" name="Logger">
+          <modelElement href="CrazyEventGateway.uml#_suZ18mzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tQvuMGzAEeqruK4Ue1a3FQ" name="fileNameForApp">
+        <modelElement href="CrazyEventGateway.uml#_skXJI2zAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQvuMWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQvuMmzAEeqruK4Ue1a3FQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tQvuM2zAEeqruK4Ue1a3FQ" name="init">
+      <modelElement href="CrazyEventGateway.uml#_skXwMGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuNGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuNWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQvuNmzAEeqruK4Ue1a3FQ" name="rolloutFile">
+      <modelElement href="CrazyEventGateway.uml#_skXwMWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQvuN2zAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_skYXQGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQvuOGzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_skY-UGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQvuOWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuOmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQvuO2zAEeqruK4Ue1a3FQ" name="closeIdleFiles">
+      <modelElement href="CrazyEventGateway.uml#_skY-UmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQvuPGzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_skY-U2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQvuPWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_skZlYGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQvuPmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuP2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQvuQGzAEeqruK4Ue1a3FQ" name="purgeStaleLogger">
+      <modelElement href="CrazyEventGateway.uml#_skZlYmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tQvuQWzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_skaMcGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tQvuQmzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_skazgGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tQvuQ2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuRGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQvuRWzAEeqruK4Ue1a3FQ" comments="_tQrckGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQrckWzAEeqruK4Ue1a3FQ" name="openLogFile">
+      <modelElement href="CrazyEventGateway.uml#_suZ18GzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQvuRmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQvuR2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tQvuSGzAEeqruK4Ue1a3FQ" name="transaction">
+        <modelElement href="CrazyEventGateway.uml#_suZ18WzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQvuSWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQvuSmzAEeqruK4Ue1a3FQ" name="Transaction">
+          <modelElement href="CrazyEventGateway.uml#_sjoJUGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_tQ5fAGzAEeqruK4Ue1a3FQ" comments="_tQtRwGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQtRwWzAEeqruK4Ue1a3FQ" name="Persistor" associationsIn="_tQeBMGzAEeqruK4Ue1a3FQ" subclassedBy="_tQqOcmzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjke8GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tQ5fAWzAEeqruK4Ue1a3FQ" position="1896.0,-478.0" size="281.0,168.0"/>
+    <visibility xmi:id="_tQ5fAmzAEeqruK4Ue1a3FQ" label="+"/>
+    <operations xmi:id="_tQ5fA2zAEeqruK4Ue1a3FQ" comments="_tQt41GzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQt41WzAEeqruK4Ue1a3FQ" name="rolloutFile">
+      <modelElement href="CrazyEventGateway.uml#_sjltEGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQ5fBGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQ5fBWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQ5fBmzAEeqruK4Ue1a3FQ" comments="_tQt41mzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQuf4GzAEeqruK4Ue1a3FQ" name="closeIdleFiles">
+      <modelElement href="CrazyEventGateway.uml#_sjmUIGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQ5fB2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQ5fCGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQ5fCWzAEeqruK4Ue1a3FQ" comments="_tQuf4WzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQuf4mzAEeqruK4Ue1a3FQ" name="purgeStaleLogger">
+      <modelElement href="CrazyEventGateway.uml#_sjmUIWzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQ5fCmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQ5fC2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQ5fDGzAEeqruK4Ue1a3FQ" comments="_tQuf42zAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQuf5GzAEeqruK4Ue1a3FQ" name="init">
+      <modelElement href="CrazyEventGateway.uml#_sjmUImzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQ5fDWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQ5fDmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tQ5fD2zAEeqruK4Ue1a3FQ" comments="_tQuf5WzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQuf5mzAEeqruK4Ue1a3FQ" name="openLogFile">
+      <modelElement href="CrazyEventGateway.uml#_st3qcGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tQ5fEGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tQ5fEWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tQ6GEGzAEeqruK4Ue1a3FQ" name="transaction">
+        <modelElement href="CrazyEventGateway.uml#_st3qcWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tQ6GEWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tQ6GEmzAEeqruK4Ue1a3FQ" name="Transaction">
+          <modelElement href="CrazyEventGateway.uml#_sjoJUGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tRAMsGzAEeqruK4Ue1a3FQ" comments="_tQ--kGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQ--kWzAEeqruK4Ue1a3FQ" name="Transaction" associationsOut="_tQ-XgGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjoJUGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tRAMsWzAEeqruK4Ue1a3FQ" position="444.0,654.0" size="186.0,75.0"/>
+    <visibility xmi:id="_tRAMsmzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tRAMs2zAEeqruK4Ue1a3FQ" defaultValue="null" name="eventType">
+      <modelElement href="CrazyEventGateway.uml#_svIOsmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRAMtGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRAMtWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRAMtmzAEeqruK4Ue1a3FQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRAMt2zAEeqruK4Ue1a3FQ" defaultValue="null" name="transactionList">
+      <modelElement href="CrazyEventGateway.uml#_svIOtGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRAMuGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRAMuWzAEeqruK4Ue1a3FQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tRAMumzAEeqruK4Ue1a3FQ" name="CEGEvent">
+        <modelElement href="CrazyEventGateway.uml#_sjLdYWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_tRCo8GzAEeqruK4Ue1a3FQ" comments="_tQf2YGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tQf2YWzAEeqruK4Ue1a3FQ" name="Translator" associationsIn="_tQDKcGzAEeqruK4Ue1a3FQ" subclassedBy="_tQdaIGzAEeqruK4Ue1a3FQ _tQlV8GzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjqlkGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tRCo8WzAEeqruK4Ue1a3FQ" position="1868.0,-162.0" size="262.0,92.0"/>
+    <visibility xmi:id="_tRCo8mzAEeqruK4Ue1a3FQ" label="+"/>
+    <operations xmi:id="_tRCo82zAEeqruK4Ue1a3FQ" name="persistData">
+      <modelElement href="CrazyEventGateway.uml#_st44kGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRCo9GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRCo9WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tRCo9mzAEeqruK4Ue1a3FQ" name="transaction">
+        <modelElement href="CrazyEventGateway.uml#_st44kWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRCo92zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRCo-GzAEeqruK4Ue1a3FQ" name="Transaction">
+          <modelElement href="CrazyEventGateway.uml#_sjoJUGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tRJ9uWzAEeqruK4Ue1a3FQ" comments="_tRG6YGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tRG6YWzAEeqruK4Ue1a3FQ" name="GatewayRateLimiter" associationsOut="_tRG6YmzAEeqruK4Ue1a3FQ _tRJ9sGzAEeqruK4Ue1a3FQ" generalizations="_tRPdQGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjtB0GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tRKkwGzAEeqruK4Ue1a3FQ" position="-518.0,766.0" size="551.0,177.0"/>
+    <visibility xmi:id="_tRKkwWzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tRKkwmzAEeqruK4Ue1a3FQ" defaultValue="LoggerFactory.getLogger(GatewayRateLimiter.class)" name="LOG" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svI1wmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRKkw2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRKkxGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRKkxWzAEeqruK4Ue1a3FQ" name="Logger">
+        <modelElement href="CrazyEventGateway.uml#_stsrUWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRKkxmzAEeqruK4Ue1a3FQ" name="maxReqPerMin">
+      <modelElement href="CrazyEventGateway.uml#_svI1xGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRKkx2zAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svJc0GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRKkyGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRKkyWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRKkymzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRKky2zAEeqruK4Ue1a3FQ" name="timeWindow">
+      <modelElement href="CrazyEventGateway.uml#_svJc0WzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRKkzGzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svJc0mzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRKkzWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRKkzmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRKkz2zAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRKk0GzAEeqruK4Ue1a3FQ" defaultValue="new ConcurrentHashMap&lt;Long, AtomicInteger>()" name="timeWindowMap">
+      <modelElement href="CrazyEventGateway.uml#_svJc02zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRKk0WzAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_svKD4GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tRKk0mzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svKD4mzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRKk02zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRKk1GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRKk1WzAEeqruK4Ue1a3FQ" name="ConcurrentMap">
+        <modelElement href="CrazyEventGateway.uml#_st6twWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tRKk1mzAEeqruK4Ue1a3FQ" name="GatewayRateLimiter">
+      <modelElement href="CrazyEventGateway.uml#_sjuP8GzAEeqruK4Ue1a3FQ"/>
+      <keywords xmi:id="_tRKk12zAEeqruK4Ue1a3FQ" keyword="create"/>
+      <visibility xmi:id="_tRKk2GzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRKk2WzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tRKk2mzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_sju3A2zAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tRKk22zAEeqruK4Ue1a3FQ" name="GatewayRateLimiter">
+          <modelElement href="CrazyEventGateway.uml#_sjtB0GzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tRKk3GzAEeqruK4Ue1a3FQ" name="maxReqPerMin">
+        <modelElement href="CrazyEventGateway.uml#_sjuP8WzAEeqruK4Ue1a3FQ"/>
+        <keywords xmi:id="_tRKk3WzAEeqruK4Ue1a3FQ" keyword="final"/>
+        <cardinality xmi:id="_tRKk3mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRKk32zAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tRKk4GzAEeqruK4Ue1a3FQ" name="timeWindow">
+        <modelElement href="CrazyEventGateway.uml#_sju3AGzAEeqruK4Ue1a3FQ"/>
+        <keywords xmi:id="_tRKk4WzAEeqruK4Ue1a3FQ" keyword="final"/>
+        <cardinality xmi:id="_tRKk4mzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRKk42zAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tRKk5GzAEeqruK4Ue1a3FQ" name="allow">
+      <modelElement href="CrazyEventGateway.uml#_sjveEmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRKk5WzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+        <modelElement href="CrazyEventGateway.uml#_sjwFIWzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tRKk5mzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sjwsMGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRKk52zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRKk6GzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tRKk6WzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_sjwFIGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tRKk6mzAEeqruK4Ue1a3FQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_tRQrYGzAEeqruK4Ue1a3FQ" comments="_tRO2MGzAEeqruK4Ue1a3FQ" targetConnectionVisual="_tRO2MWzAEeqruK4Ue1a3FQ" name="RateLimiter" subclassedBy="_tRPdQGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sjyhYGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tRQrYWzAEeqruK4Ue1a3FQ" position="-523.0,640.0" size="153.0,92.0"/>
+    <visibility xmi:id="_tRQrYmzAEeqruK4Ue1a3FQ" label="+"/>
+    <operations xmi:id="_tRQrY2zAEeqruK4Ue1a3FQ" name="allow">
+      <modelElement href="CrazyEventGateway.uml#_sjzvgGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRQrZGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRQrZWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tRQrZmzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_sjzvgWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tRQrZ2zAEeqruK4Ue1a3FQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tRYnMGzAEeqruK4Ue1a3FQ" name="RateLimiterInterceptor" associationsOut="_tRTusGzAEeqruK4Ue1a3FQ _tRUVwGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_skLi8GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tRYnMWzAEeqruK4Ue1a3FQ" position="-44.0,1071.0" size="622.0,270.0"/>
+    <stereotypes xmi:id="_tRYnMmzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_skMKAGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tRYnM2zAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_skQbcGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tRYnNGzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tRYnNWzAEeqruK4Ue1a3FQ" defaultValue="LoggerFactory.getLogger(RateLimiterInterceptor.class)" name="LOG" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svO8YGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRYnNmzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svO8YmzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRYnN2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRYnOGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRYnOWzAEeqruK4Ue1a3FQ" name="Logger">
+        <modelElement href="CrazyEventGateway.uml#_stsrUWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRYnOmzAEeqruK4Ue1a3FQ" defaultValue="new ConcurrentHashMap&lt;>()" name="rateLimiters">
+      <modelElement href="CrazyEventGateway.uml#_svO8Y2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRYnO2zAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_svPjcGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRYnPGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRYnPWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRYnPmzAEeqruK4Ue1a3FQ" name="ConcurrentMap">
+        <modelElement href="CrazyEventGateway.uml#_st6twWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRYnP2zAEeqruK4Ue1a3FQ" name="rateLimit">
+      <modelElement href="CrazyEventGateway.uml#_svPjcmzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRYnQGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRYnQWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRYnQmzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRYnQ2zAEeqruK4Ue1a3FQ" name="timeWindow">
+      <modelElement href="CrazyEventGateway.uml#_svPjc2zAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRYnRGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRYnRWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRYnRmzAEeqruK4Ue1a3FQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRYnR2zAEeqruK4Ue1a3FQ" name="enabled">
+      <modelElement href="CrazyEventGateway.uml#_svQKgGzAEeqruK4Ue1a3FQ"/>
+      <visibility xmi:id="_tRYnSGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRYnSWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRYnSmzAEeqruK4Ue1a3FQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tRYnS2zAEeqruK4Ue1a3FQ" name="getRateLimiter">
+      <modelElement href="CrazyEventGateway.uml#_skNYIGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRYnTGzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_skN_MGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRYnTWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRYnTmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tRYnT2zAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_suR6IGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tRYnUGzAEeqruK4Ue1a3FQ" name="GatewayRateLimiter">
+          <modelElement href="CrazyEventGateway.uml#_sjtB0GzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tRYnUWzAEeqruK4Ue1a3FQ" name="clientId">
+        <modelElement href="CrazyEventGateway.uml#_skNYIWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRYnUmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRYnU2zAEeqruK4Ue1a3FQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tRYnVGzAEeqruK4Ue1a3FQ" name="setEnabled">
+      <modelElement href="CrazyEventGateway.uml#_skOmQGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRYnVWzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_skPNUGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRYnVmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRYnV2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tRYnWGzAEeqruK4Ue1a3FQ" name="enabled">
+        <modelElement href="CrazyEventGateway.uml#_skOmQWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRYnWWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRYnWmzAEeqruK4Ue1a3FQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tRYnW2zAEeqruK4Ue1a3FQ" name="setRateLimit">
+      <modelElement href="CrazyEventGateway.uml#_skPNUWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRYnXGzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_skP0YGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRYnXWzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRYnXmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tRYnX2zAEeqruK4Ue1a3FQ" name="rateLimit">
+        <modelElement href="CrazyEventGateway.uml#_skPNUmzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRYnYGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRYnYWzAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tRYnYmzAEeqruK4Ue1a3FQ" name="setTimeWindow">
+      <modelElement href="CrazyEventGateway.uml#_skP0YWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRYnY2zAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_skP0Y2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRYnZGzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRYnZWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tRYnZmzAEeqruK4Ue1a3FQ" name="timeWindow">
+        <modelElement href="CrazyEventGateway.uml#_skP0YmzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRYnZ2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRYnaGzAEeqruK4Ue1a3FQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tRYnaWzAEeqruK4Ue1a3FQ" name="preHandle">
+      <modelElement href="CrazyEventGateway.uml#_su160GzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRYnamzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_su2h4GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRYna2zAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRYnbGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tRYnbWzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_su161GzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tRYnbmzAEeqruK4Ue1a3FQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tRYnb2zAEeqruK4Ue1a3FQ" name="request">
+        <modelElement href="CrazyEventGateway.uml#_su160WzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRYncGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRYncWzAEeqruK4Ue1a3FQ" name="HttpServletRequest">
+          <modelElement href="CrazyEventGateway.uml#_suOPwGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tRYncmzAEeqruK4Ue1a3FQ" name="response">
+        <modelElement href="CrazyEventGateway.uml#_su160mzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRYnc2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRYndGzAEeqruK4Ue1a3FQ" name="HttpServletResponse">
+          <modelElement href="CrazyEventGateway.uml#_suO20WzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tRYndWzAEeqruK4Ue1a3FQ" name="handler">
+        <modelElement href="CrazyEventGateway.uml#_su1602zAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRYndmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRYnd2zAEeqruK4Ue1a3FQ" name="Object">
+          <modelElement href="CrazyEventGateway.uml#_sulcIGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tRwaoGzAEeqruK4Ue1a3FQ" name="EventWritingService" associationsIn="_tR3vYGzAEeqruK4Ue1a3FQ _tR_rMGzAEeqruK4Ue1a3FQ" associationsOut="_tRhxIGzAEeqruK4Ue1a3FQ _tRi_QGzAEeqruK4Ue1a3FQ _tRnQsGzAEeqruK4Ue1a3FQ _tRn3wGzAEeqruK4Ue1a3FQ _tRn3wWzAEeqruK4Ue1a3FQ _tRpF4GzAEeqruK4Ue1a3FQ _tRpF5WzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_skE1QGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tRwaoWzAEeqruK4Ue1a3FQ" position="1022.0,468.0" size="290.0,137.0"/>
+    <stereotypes xmi:id="_tRwaomzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_skGDYGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tRwao2zAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_skHRgGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tRwapGzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tRwapWzAEeqruK4Ue1a3FQ" defaultValue="LoggerFactory.getLogger(EventWritingService.class)" name="LOG" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svL5EmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRwapmzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svL5FGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRwap2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRwaqGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRwaqWzAEeqruK4Ue1a3FQ" name="Logger">
+        <modelElement href="CrazyEventGateway.uml#_stsrUWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRwaqmzAEeqruK4Ue1a3FQ" name="batchProcessor">
+      <modelElement href="CrazyEventGateway.uml#_svMgIGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRwaq2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svMgIWzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRwarGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRwarWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRwarmzAEeqruK4Ue1a3FQ" name="BatchProcessor">
+        <modelElement href="CrazyEventGateway.uml#_sjQ88GzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRwar2zAEeqruK4Ue1a3FQ" name="executor">
+      <modelElement href="CrazyEventGateway.uml#_svMgI2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRwasGzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svNHMGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRwasWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRwasmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRwas2zAEeqruK4Ue1a3FQ" name="ExecutorService">
+        <modelElement href="CrazyEventGateway.uml#_staXcWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRwatGzAEeqruK4Ue1a3FQ" name="eventType1Consumer">
+      <modelElement href="CrazyEventGateway.uml#_svNHMmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRwatWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svNHM2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRwatmzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRwat2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRwauGzAEeqruK4Ue1a3FQ" name="EventConsumer">
+        <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRwauWzAEeqruK4Ue1a3FQ" name="eventType2Consumer">
+      <modelElement href="CrazyEventGateway.uml#_svNHN2zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRwaumzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svNuQGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRwau2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRxBsGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRxBsWzAEeqruK4Ue1a3FQ" name="EventConsumer">
+        <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRxBsmzAEeqruK4Ue1a3FQ" name="eventType3Consumer">
+      <modelElement href="CrazyEventGateway.uml#_svNuRGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRxBs2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svNuRWzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRxBtGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRxBtWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRxBtmzAEeqruK4Ue1a3FQ" name="EventConsumer">
+        <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tRxBt2zAEeqruK4Ue1a3FQ" name="eventType4Consumer">
+      <modelElement href="CrazyEventGateway.uml#_svOVUmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRxBuGzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svOVU2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRxBuWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tRxBumzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tRxBu2zAEeqruK4Ue1a3FQ" name="EventConsumer">
+        <modelElement href="CrazyEventGateway.uml#_sjV1cGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tRxBvGzAEeqruK4Ue1a3FQ" name="processEvents">
+      <modelElement href="CrazyEventGateway.uml#_su0FoGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tRxBvWzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_su0FomzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tRxBvmzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tRxBv2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tRxBwGzAEeqruK4Ue1a3FQ" name="events">
+        <modelElement href="CrazyEventGateway.uml#_su0FoWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tRxBwWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tRxBwmzAEeqruK4Ue1a3FQ" name="List">
+          <modelElement href="CrazyEventGateway.uml#_stsEQWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tR7ZwGzAEeqruK4Ue1a3FQ" name="CEGController" associationsOut="_tR3vYGzAEeqruK4Ue1a3FQ _tR49gGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_skBK4GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tR7ZwWzAEeqruK4Ue1a3FQ" position="489.0,797.0" size="323.0,118.0"/>
+    <stereotypes xmi:id="_tR7ZwmzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_skCZAGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tR7Zw2zAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_skDAEGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tR7ZxGzAEeqruK4Ue1a3FQ" label="+"/>
+    <attributes xmi:id="_tR7ZxWzAEeqruK4Ue1a3FQ" defaultValue="LoggerFactory.getLogger(CEGController.class)" name="LOG" staticAttribute="true">
+      <modelElement href="CrazyEventGateway.uml#_svLSAmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tR7ZxmzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_svLSBGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tR7Zx2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tR7ZyGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tR7ZyWzAEeqruK4Ue1a3FQ" name="Logger">
+        <modelElement href="CrazyEventGateway.uml#_stsrUWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tR7ZymzAEeqruK4Ue1a3FQ" name="service">
+      <modelElement href="CrazyEventGateway.uml#_svLSBWzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tR7Zy2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svL5EGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tR7ZzGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tR7ZzWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tR7ZzmzAEeqruK4Ue1a3FQ" name="EventWritingService">
+        <modelElement href="CrazyEventGateway.uml#_skE1QGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tR7Zz2zAEeqruK4Ue1a3FQ" name="captureEvents">
+      <modelElement href="CrazyEventGateway.uml#_suwbQGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tR7Z0GzAEeqruK4Ue1a3FQ" name="Generics">
+        <modelElement href="CrazyEventGateway.uml#_suxCUGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tR7Z0WzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_suy3gmzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tR7Z0mzAEeqruK4Ue1a3FQ" label="+"/>
+      <cardinality xmi:id="_tR7Z02zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tR7Z1GzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_suxpYGzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tR7Z1WzAEeqruK4Ue1a3FQ" name="ResponseEntity">
+          <modelElement href="CrazyEventGateway.uml#_suHiEGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tR7Z1mzAEeqruK4Ue1a3FQ" name="events">
+        <modelElement href="CrazyEventGateway.uml#_suwbQWzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tR7Z12zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tR7Z2GzAEeqruK4Ue1a3FQ" name="List">
+          <modelElement href="CrazyEventGateway.uml#_stsEQWzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tSDVmWzAEeqruK4Ue1a3FQ" name="CEGControllerTest" associationsOut="_tR_rMGzAEeqruK4Ue1a3FQ _tSDVkGzAEeqruK4Ue1a3FQ">
+    <modelElement href="CrazyEventGateway.uml#_sj4A8GzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tSDVmmzAEeqruK4Ue1a3FQ" position="877.0,639.0" size="267.0,156.0"/>
+    <stereotypes xmi:id="_tSDVm2zAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_sj5PEGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tSDVnGzAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_sj-HkGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tSDVnWzAEeqruK4Ue1a3FQ" label="~"/>
+    <attributes xmi:id="_tSDVnmzAEeqruK4Ue1a3FQ" name="mvc">
+      <modelElement href="CrazyEventGateway.uml#_svKq8GzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tSDVn2zAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svKq8WzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tSDVoGzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tSDVoWzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tSDVomzAEeqruK4Ue1a3FQ" name="MockMvc">
+        <modelElement href="CrazyEventGateway.uml#_suEewWzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tSDVo2zAEeqruK4Ue1a3FQ" name="service">
+      <modelElement href="CrazyEventGateway.uml#_svKq82zAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tSDVpGzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_svLSAGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tSDVpWzAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tSDVpmzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tSDVp2zAEeqruK4Ue1a3FQ" name="EventWritingService">
+        <modelElement href="CrazyEventGateway.uml#_skE1QGzAEeqruK4Ue1a3FQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tSDVqGzAEeqruK4Ue1a3FQ" name="testPostEventsSuccess">
+      <modelElement href="CrazyEventGateway.uml#_sj52IGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tSDVqWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sj6dMGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tSDVqmzAEeqruK4Ue1a3FQ" label="~"/>
+      <cardinality xmi:id="_tSDVq2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tSDVrGzAEeqruK4Ue1a3FQ" name="testPostEventsFailure">
+      <modelElement href="CrazyEventGateway.uml#_sj7EQGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tSDVrWzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sj85cGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tSDVrmzAEeqruK4Ue1a3FQ" label="~"/>
+      <cardinality xmi:id="_tSDVr2zAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tSDVsGzAEeqruK4Ue1a3FQ" name="toJson">
+      <modelElement href="CrazyEventGateway.uml#_suumEGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tSDVsWzAEeqruK4Ue1a3FQ" name="Array">
+        <modelElement href="CrazyEventGateway.uml#_suvNI2zAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tSDVsmzAEeqruK4Ue1a3FQ" name="StyledElement">
+        <modelElement href="CrazyEventGateway.uml#_suvNJGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tSDVs2zAEeqruK4Ue1a3FQ" label="-"/>
+      <cardinality xmi:id="_tSDVtGzAEeqruK4Ue1a3FQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_tSDVtWzAEeqruK4Ue1a3FQ">
+        <modelElement href="CrazyEventGateway.uml#_suvNIWzAEeqruK4Ue1a3FQ"/>
+        <type xmi:id="_tSDVtmzAEeqruK4Ue1a3FQ" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tSDVt2zAEeqruK4Ue1a3FQ" name="object">
+        <modelElement href="CrazyEventGateway.uml#_suvNIGzAEeqruK4Ue1a3FQ"/>
+        <cardinality xmi:id="_tSDVuGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tSDVuWzAEeqruK4Ue1a3FQ" name="Object">
+          <modelElement href="CrazyEventGateway.uml#_sulcIGzAEeqruK4Ue1a3FQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tSKDQGzAEeqruK4Ue1a3FQ" name="IOException">
+    <modelElement href="CrazyEventGateway.uml#_suA0YWzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tSKDQWzAEeqruK4Ue1a3FQ" position="681.0,650.0" size="80.0,65.0"/>
+    <stereotypes xmi:id="_tSKDQmzAEeqruK4Ue1a3FQ" name="Reference">
+      <modelElement href="CrazyEventGateway.uml#_suBbcGzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tSKDQ2zAEeqruK4Ue1a3FQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tSL4cGzAEeqruK4Ue1a3FQ" name="CEGRateLimiterTests">
+    <modelElement href="CrazyEventGateway.uml#_sj0WkGzAEeqruK4Ue1a3FQ"/>
+    <visualProperties xmi:id="_tSL4cWzAEeqruK4Ue1a3FQ" position="643.0,972.0" size="215.0,111.0"/>
+    <stereotypes xmi:id="_tSL4cmzAEeqruK4Ue1a3FQ" name="LegacyStyledElement">
+      <modelElement href="CrazyEventGateway.uml#_sj09oWzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_tSL4c2zAEeqruK4Ue1a3FQ" name="Annotations">
+      <modelElement href="CrazyEventGateway.uml#_sj3Z4GzAEeqruK4Ue1a3FQ"/>
+    </stereotypes>
+    <visibility xmi:id="_tSL4dGzAEeqruK4Ue1a3FQ" label="~"/>
+    <operations xmi:id="_tSL4dWzAEeqruK4Ue1a3FQ" name="testRateLimitNormal">
+      <modelElement href="CrazyEventGateway.uml#_sj1ksGzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tSL4dmzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sj2LwGzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tSL4d2zAEeqruK4Ue1a3FQ" label="~"/>
+      <cardinality xmi:id="_tSL4eGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tSL4eWzAEeqruK4Ue1a3FQ" name="testRateLimitExceeded">
+      <modelElement href="CrazyEventGateway.uml#_sj2LwmzAEeqruK4Ue1a3FQ"/>
+      <stereotypes xmi:id="_tSL4emzAEeqruK4Ue1a3FQ" name="Annotations">
+        <modelElement href="CrazyEventGateway.uml#_sj2y0GzAEeqruK4Ue1a3FQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tSL4e2zAEeqruK4Ue1a3FQ" label="~"/>
+      <cardinality xmi:id="_tSL4fGzAEeqruK4Ue1a3FQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
